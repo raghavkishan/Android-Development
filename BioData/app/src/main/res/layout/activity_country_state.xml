@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.raghavkishan.biodata.CountryStateActivity"
+    android:id="@+id/country_state_container">
+
+    <Button
+        android:text="@string/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countrystate_done_button"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="225dp"/>
+
+    <Button
+        android:text="@string/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countrystate_cancel_button"
+        android:layout_marginTop="420dp"
+        android:layout_marginStart="55dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:id="@+id/fragContainer">
+
+    </FrameLayout>
+
+</FrameLayout>

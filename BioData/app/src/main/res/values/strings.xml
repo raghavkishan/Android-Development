@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Bio Data:</string>
+    <string name="firstname"><b>First(given) name</b>:</string>
+    <string name="familyname"><b>Family(last) name</b>:</string>
+    <string name="age"><b>Age</b>:</string>
+    <string name="email"><b>Email</b>:</string>
+    <string name="phone"><b>Phone</b>:</string>
+    <string name="birthdate"><b>Birthdate</b>:</string>
+    <string name="Countryandstate"><b>Country and state(province)</b>:</string>
+    <string name="set">Set</string>
+    <string name="title_activity_date">DateActivity</string>
+    <string name="cancel">Cancel</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="app_nameh">Bio Data:</string>
+    <string name="firstnameh">First(given) name</string>
+    <string name="familynameh">Family(last) name</string>
+    <string name="ageh">Age</string>
+    <string name="emailh">Email</string>
+    <string name="phoneh">Phone</string>
+    <string name="birthdateh">Birthdate</string>
+    <string name="Countryandstateh">Country and state(province)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

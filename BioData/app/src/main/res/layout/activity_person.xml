@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/firstname"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/fname" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/fnamevalue"
+            android:nextFocusForward="@+id/flnamevalue"
+            android:imeOptions="actionNext"
+            android:hint="@string/firstnameh"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/familyname"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/flname" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/flnamevalue"
+            android:nextFocusForward="@+id/agevalue"
+            android:imeOptions="actionNext"
+            android:hint="@string/familynameh"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/age"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/age" />
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/agevalue"
+            android:inputType="number"
+            android:nextFocusForward="@+id/emailvalue"
+            android:imeOptions="actionNext"
+            android:hint="@string/ageh"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/email"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/email"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailvalue"
+            android:inputType="textEmailAddress"
+            android:nextFocusForward="@+id/phonevalue"
+            android:imeOptions="actionNext"
+            android:hint="@string/emailh"
+            />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/phone"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/phone" />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="wrap_content"
+            android:id="@+id/phonevalue"
+            android:inputType="phone"
+            android:nextFocusForward="@+id/birthdate"
+            android:imeOptions="actionNext"
+            android:hint="@string/phoneh"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/birthdate"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/birthdate"/>
+        <TextView
+            android:id="@+id/birthdatedisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:paddingLeft="3dp"
+            android:textSize="@dimen/font_size"
+            android:hint="@string/birthdateh"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set"
+            android:textAllCaps="false"
+            android:id="@+id/datebutton"
+            android:nextFocusForward="@+id/countryandstatebutton"
+            android:imeOptions="actionNext"
+            android:onClick="dateset"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="@string/Countryandstate"
+            android:textSize="12dp"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="6dp"
+            android:paddingTop="6dp"
+            android:id="@+id/countryandstate"/>
+        <TextView
+            android:id="@+id/countryandstatedisplay"
+            android:hint="@string/Countryandstateh"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/set"
+            android:textAllCaps="false"
+            android:id="@+id/countryandstatebutton"
+            android:onClick="countryandstateset"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView />
+        <TextView />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/save"
+            android:textAllCaps="false"
+            android:id="@+id/savebutton"
+            android:onClick="save"/>
+
+    </TableRow>
+</TableLayout>
