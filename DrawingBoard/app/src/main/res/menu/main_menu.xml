@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/draw_mode"
+        android:title="@string/draw">
+        <menu>
+            <item
+                android:title="@string/black_color"
+                android:id="@+id/select_black">
+            </item>
+            <item
+                android:title="@string/blue_color"
+                android:id="@+id/select_blue">
+            </item>
+            <item
+                android:title="@string/red_color"
+                android:id="@+id/select_red">
+            </item>
+            <item
+                android:title="@string/green_color"
+                android:id="@+id/select_green">
+            </item>
+        </menu>
+    </item>
+    <item
+        android:title="@string/delete"
+        android:id="@+id/delete_mode">
+    </item>
+    <item
+        android:title="@string/move"
+        android:id="@+id/move_mode">
+    </item>
+</menu>
