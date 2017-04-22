@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "23522965588",
+    "firebase_url": "https://sdsuhometownchat-a1fc3.firebaseio.com",
+    "project_id": "sdsuhometownchat-a1fc3",
+    "storage_bucket": "sdsuhometownchat-a1fc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23522965588:android:81969895fec6edea",
+        "android_client_info": {
+          "package_name": "com.example.raghavkishan.sdsuhometownchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "23522965588-jq80ekltr1qbvbj1r366d7kq4fpq50a6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.raghavkishan.sdsuhometownchat",
+            "certificate_hash": "6794dcec7db8304e42c059a925f08a3c6e64bc11"
+          }
+        },
+        {
+          "client_id": "23522965588-uctjlnml1gk4glcc928bh95o81sl0jc9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB__UP8XbhFf_YvDcHz9jdkNxahyBnDS00"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "23522965588-uctjlnml1gk4glcc928bh95o81sl0jc9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

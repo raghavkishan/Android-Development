@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SDSUHomeTownChat</string>
+    <string name="heading_string">Welcome to SDSU Hometown Locations &amp; Chat</string>
+    <string name="existing_user_heading_string">Existsing User ? Sign in </string>
+    <string name="new_user_heading_string">New User ? Register here...</string>
+    <string name="login_id_label_string">Login Id:</string>
+    <string name="login_id_value_hint_string">Enter Login Id</string>
+    <string name="password_label_string">Password:</string>
+    <string name="password_value_hint_string">Enter Password</string>
+    <string name="register_button_label_string">Register</string>
+    <string name="regsiter_user_heading_label_string">Please Complete The Form</string>
+    <string name="nick_name_label_string">Nick Name:</string>
+    <string name="nick_name_value_hint_string">Enter Nick Name</string>
+    <string name="country_label_string">Country:</string>
+    <string name="state_label_string">State:</string>
+    <string name="city_label_string">City:</string>
+    <string name="city_value_hint_string">Enter City</string>
+    <string name="year_label_string">Year:</string>
+    <string name="set_location_string">Set Location</string>
+    <string name="set_country_state_button_string">Set Country &amp; State</string>
+    <string name="email_id_label_string">Email id</string>
+    <string name="register_user_button_label_string">Register User</string>
+    <string name="title_activity_set_location_using_map">Map</string>
+    <string name="clear_fields_button_string">Clear Fields</string>
+    <string name="create_failed">Email and Password sign up unsuccessful</string>
+    <string name="log_in_button_string">Sign In</string>
+    <string name="auth_failed">Incorrect Username / Password</string>
+    <string name="filter_view_sign_out_button_string">Sign out</string>
+    <string name="filter_view_country_label_string">Country:</string>
+    <string name="filter_view_state_label_string">State:</string>
+    <string name="filter_view_year_label_string">Year:</string>
+    <string name="filter_view_list_view_button_string">List View</string>
+    <string name="filter_view_map_view_button_string">Map View</string>
+    <string name="map_view_add_users">Add Users</string>
+    <string name="map_view_next_set">Add Users</string>
+    <string name="filter_view_chat_button_string">Chat List</string>
+    <string name="chat_send_button_string">Send</string>
+    <string name="current_User_label">Current User:</string>
+    <string name="input_message">Enter your text here</string>
+    <string name="chat_list_string">Chat List:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_mapview">Map</string>
+    <string name="add_users">Add Users</string>
+</resources>
