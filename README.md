@@ -1,2 +1,2 @@
 # Android-Development
-Android mini projects.
+Android Projects.
